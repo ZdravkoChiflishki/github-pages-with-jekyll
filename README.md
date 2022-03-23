@@ -1,13 +1,16 @@
-# Your GitHub Learning Lab Repository for GitHub Pages
+# Jekyll Bootstrap 5
+Jekyll + Gulp 4 + Browser-sync + Bootstrap 5 + Font-Awesome + Magnific popup
 
-Welcome to **your** repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through. 
+## Requirements
+### https://jekyllrb.com/docs/installation/
+- Ruby (refer to jekyll documentation or sudo apt-get install ruby-full)
+- RubyGems (refer to jekyll documentation or sudo apt-get install jekyll)
+- NodeJS (sudo apt-get install nodejs)
+- NPM (sudo apt-get install npm)
+- Gulp (sudo npm install gulp -g)
 
-Oh! I haven't introduced myself...
-
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
-
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
-
-I'll meet you over there, can't wait to get started!
-
-This repository is licensed under [MIT](../LICENSE) (c) 2019 GitHub, Inc.
+## Installation
+1. Clone or download this respository.
+2. Run 'npm install' via cmd line to get all of the node dependancies, this will also install Gulp for compiling scss and js.
+3. Run "gulp" via the cmd line to compile uncompressed sass and js as well as build the website in _site. It will also start Browsersync to watch for changes.
+4. Copy _site contents to your live server.
